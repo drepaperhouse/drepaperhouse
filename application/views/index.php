@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/demo.css' ?>"/> 
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/style.css' ?>"/>
-		<script type="text/javascript" src="<?php echo base_url().'assets/js/modernizr.custom.28468.js'?>"/> </script> 
+		<script type="text/javascript" src="<?php echo base_url().'assets/js/modernizr.custom.28468.js' ?>"/> </script> 
 		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
 		<noscript>
 			<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/nojs.css' ?>" />
@@ -20,19 +20,7 @@
     <body>
         <div class="container">
 			<!-- Codrops top bar -->
-            <div class="codrops-top">
-                <a href="http://tympanus.net/Tutorials/CSS3Accordion/">
-                    <strong>&laquo; Previous Demo: </strong>Accordion with CSS3 
-                </a>
-                <span class="right">
-					<a href="http://www.dinpattern.com/2011/03/21/waves/">Pattern from Dinpattern</a>
-					<a href="http://medialoot.com/item/free-designer-portfolio-icon-set/">Icons by: LazyCrazy via MediaLoot</a>
-                    <a href="http://tympanus.net/codrops/2012/03/15/parallax-content-slider-with-css3-and-jquery/">
-                        <strong>Back to the Codrops Article</strong>
-                    </a>
-                </span>
-                <div class="clr"></div>
-            </div><!--/ Codrops top bar -->
+
 			<header>
 				<h1>Parallax Content Slider <span>with CSS3 and jQuery</span></h1>
 				<h2>A content slider with delayed animations and background parallax effect</h2>
@@ -74,7 +62,7 @@
 			</div>
         </div>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+		<script type="text/javascript" src="<?php echo base_url().'assets/js/jquery.cslider.js' ?>"></script> 
 		<script type="text/javascript">
 			$(function() {
 			
