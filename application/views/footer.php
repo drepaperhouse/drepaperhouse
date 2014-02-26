@@ -1,14 +1,14 @@
+ <div class="well">
 <div class="row">
-  
-    <div class="span12">
-        <div class="well">
-          <center><h3>Copyright &copy; Drepaperhouse 2013</h3></center>  
-        </div>
+   
+       
+            <center><h4>Copyright &copy; Drepaperhouse 2014</h4></center>  
+       
+      
     </div>
-    
-    
-</div>
 
 </div>
+
+
 </body>
 </html>

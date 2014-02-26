@@ -3,66 +3,88 @@
     <head>
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Parallax Content Slider with CSS3 and jQuery</title>
+        <title>Drepaperhouse</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Parallax Content Slider with CSS3 and jQuery" />
         <meta name="keywords" content="slider, animations, parallax, delayed, easing, jquery, css3, kendo UI" />
         <meta name="author" content="Codrops" />
         <link rel="shortcut icon" href="../favicon.ico"> 
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/demo.css' ?>"/> 
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/style.css' ?>"/>
-		<script type="text/javascript" src="<?php echo base_url().'assets/js/modernizr.custom.28468.js' ?>"/> </script> 
-		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/demo.css' ?>" /> 
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/style.css' ?>" /> 
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/app.css' ?>" /> 
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/bootstrap.css' ?>" /> 
+   
+        <script type="text/javascript" src="<?php echo base_url().'assets/js/modernizr.custom.28468.js' ?>"/></script>
+	<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+                
+      
+      
+      
+	 
 		<noscript>
-			<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/nojs.css' ?>" />
+			<link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/nojs.css' ?>" /> 
 		</noscript>
     </head>
     <body>
-        <div class="container">
-			<!-- Codrops top bar -->
-
-			<header>
-				<h1>Parallax Content Slider <span>with CSS3 and jQuery</span></h1>
-				<h2>A content slider with delayed animations and background parallax effect</h2>
-				<p class="codrops-demos">
-					<a class="current-demo" href="index.html">Default</a>
-					<a href="index2.html">Autoplay</a>
-					<a href="index3.html">Parallax off</a>
-				</p>
-			</header>
+        
+        <?php include_once('navbar.php'); ?>
+        <div class="slider-inner">   
 			<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<h2>Warm welcome</h2>
-					<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="images/1.png" alt="image01" /></div>
+					<h2>Welcome!</h2>
+					<p>My name is Andre and welcome to my website. This website is just for kicks!</p>
+					<a href="#" class="da-link">About Me</a>
+					<div class="da-img"><img src="<?php echo base_url().'assets/images/home.png' ?>" alt="image01" /></div> 
 				</div>
 				<div class="da-slide">
-					<h2>Easy management</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
+					<h2>Gallery</h2>
+					<p>Pictures I have took, while out and about.</p>
+					<a href="#" class="da-link">Click</a>
+					<div class="da-img"><img src="<?php echo base_url().'assets/images/gallery.png' ?>" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
-					<h2>Revolution</h2>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
+					<h2>Code</h2>
+					<p>I'm Computer Science graduate. So here is some code that can be usefull</p>
+					<a href="#" class="da-link">Click</a>
+					<div class="da-img"><img src="<?php echo base_url().'assets/images/code.png' ?>" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
-					<h2>Quality Control</h2>
-					<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					<a href="#" class="da-link">Read more</a>
-					<div class="da-img"><img src="images/4.png" alt="image01" /></div>
+					<h2>Critic</h2>
+					<p>I have passion for film and music. I'll note my opinions here. </p>
+					<a href="<?php echo base_url().'index.php/film_controller' ?>" class="da-link">Click</a>
+					<div class="da-img"><img src="<?php echo base_url().'assets/images/film.png' ?>" alt="image01" /></div>
 				</div>
 				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
+                                    <span class="da-arrows-prev"></span>
 					<span class="da-arrows-next"></span>
 				</nav>
 			</div>
         </div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <div class="container" >   
+            <div class="row">
+        <div class="col-md-6"align="left">
+            <h3>Welcome! My mind on the web.</h3>
+            <p>"My name is Andre. I graduated from the University of Texas at El Paso. This website
+            will contain my opinions on films I've seen (past or present). I will also have some code snippets since I'm a computer scientist. And I will throw in 
+            pictures of crap I've been in. Enjoy!"</p>
+        </div>
+                      <div class="headline"><h2>Contact Information</h2></div>
+        <address class="md-margin-bottom-40">
+            Phone: 915 412 6037 <br />
+            Email: <a href="mailto:dre.paperhouse.com" class="">dre.paperhouse@gmail.com</a>
+        </address>
+        </div> 
+            
+         <embed name="lostmojo" src="/web_design/lostmojo.wav" loop="false" hidden="true" autostart="true">   
+            
+        <?php include_once('recent_stuff.php'); ?>
+         
+        </div>
+         <?php include_once('footer.php'); ?>
+        
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php echo base_url().'assets/js/jquery.cslider.js' ?>"></script> 
+                <script type="text/javascript" src="<?php echo base_url().'assets/js/app.js' ?>"></script>             
 		<script type="text/javascript">
 			$(function() {
 			
@@ -70,5 +92,9 @@
 				
 			});
 		</script>	
+       
+         
+                
+                
     </body>
 </html>

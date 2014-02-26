@@ -2,8 +2,8 @@
 
     <head>
 
-        <link rel="stylesheet" tyupe="text/css" href="<?php echo base_url().'assets/css/bootstrap.css' ?>"/>
-        <link rel="stylesheet" tyupe="text/css" href="<?php echo base_url().'assets/css/bootstrap-theme.css' ?>"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/bootstrap.css' ?>"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/css/bootstrap-theme.css' ?>"/>
 </head>   
     <body>
 
