@@ -107,7 +107,7 @@ h2 {
 .service-details .service-text {
 
 
-    width: 25%;
+        width: 25%;
 	height: 75%;
 	position: absolute;
 	top: 0%;
@@ -126,11 +126,11 @@ h2 {
 
 .service-details .service-text p {
      
-        padding-top: 9px;
+        padding-top: 0px;
 	padding-left: 0px; 
         padding-right: 15px; 
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 18px;
 	font-family: "Open Sans";
 	color: #000000;
 }
@@ -165,7 +165,7 @@ h2 {
 }
 
 .service-white p {
-	padding-top: 13px;
+	padding-top: 10px;
 	font-size: 14px;
 	line-height: 20px;
 	font-family: "Open Sans";

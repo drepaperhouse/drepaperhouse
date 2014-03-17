@@ -1,3 +1,5 @@
 style="background-image: url(<?php echo base_url() . 'assets/images' . $image ?>);"
 
 movie_review.php -> the image is 850 x 450. 
+
+gallery photos are:  8 x 6

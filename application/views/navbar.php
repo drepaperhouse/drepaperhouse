@@ -14,14 +14,8 @@
     <div class="container" >
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href ="<?php echo base_url().'index.php' ?>">Home</a></li>
-                        
-                        <li class="dropdown">
-                            <a href =" <?php echo base_url().'index.php/gallery_controller/san_francisco' ?>" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                            <li><a href="#">San Diego</a></li>
-                            <li><a href=" <?php echo base_url().'index.php/gallery_controller/san_francisco' ?>">San Francisco</a></li>
-                            </ul>
-                        </li>
+                         <li><a href ="<?php echo base_url().'gallery_controller' ?>">Gallery</a></li>
+                       
                         <li><a href ="#">Code</a></li>
                         <li><a href =" <?php echo base_url().'index.php/film_controller' ?>">Critic</a></li>
                          <li><a href ="http://www.drepaperhouse.wordpress.com">It could be worse!</a></li>

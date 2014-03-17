@@ -57,13 +57,14 @@
                 
              
                 <?php $count = 1;  
-                    
+                      $max = intval($numberOfpics); 
+                       
                 ?>
                 
-                <?php for($count=1; $count < 64; $count++): ?> 
+                <?php for($count=1; $count < $max; $count++): ?> 
                 <li class='loaded'>
-                 <a href="<?php echo base_url() .'assets/images/san_diego/san_diego_'.$count.'.JPG' ?>">
-                 <img src="<?php echo base_url() .'assets/images/san_diego/san_diego_'.$count.'.JPG' ?>" alt="<?php echo $count; ?>">
+                 <a href="<?php echo base_url() .'assets/images/'.$images.$count.'.JPG' ?>">
+                 <img src="<?php echo base_url() .'assets/images/'.$images.$count.'.JPG' ?>" alt="<?php echo $count; ?>">
                  </a>
                 </li>
                 <?php endfor; ?>
