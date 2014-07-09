@@ -1,14 +1,4 @@
- <div class="well">
-<div class="row">
-   
-       
-            <center><h4>Copyright &copy; Drepaperhouse 2014</h4></center>  
-       
-      
-    </div>
-
-</div>
-
-
-</body>
-</html>
+  <div id="templatemo_footer">
+               <p>     Copyright © 2014 Drepaperhouse </p>
+             <p> <a href="<?php echo base_url().'index.php/login_controller' ?>">Administrator</a></p>
+  </div> <!-- END of templatemo_footer -->

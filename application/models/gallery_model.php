@@ -9,10 +9,16 @@ class gallery_model extends CI_Model {
    return $query->result(); 
  }   
  
- function getGallery($id) {
+ function getPhotos($id) {
      
-       $query = $this->db->query("SELECT * FROM image_tbl g _id = '$id'"); 
+       $query = $this->db->query("SELECT * FROM gallery_tbl where gallery_id = '$id'"); 
+       if($query)
        return $query->result(); 
+       else {
+           
+             $query = $this->db->query("SELECT * from gallery_tbl ORDER BY gallery_id LIMIT 100"); 
+              return $query->result(); 
+       }
      
  }
     

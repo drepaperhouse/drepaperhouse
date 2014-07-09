@@ -3,3 +3,10 @@ style="background-image: url(<?php echo base_url() . 'assets/images' . $image ?>
 movie_review.php -> the image is 850 x 450. 
 
 gallery photos are:  8 x 6
+slider on home page 700x360
+
+the me picture is 290 x 145
+recent pictures 68x68
+
+ the gallery clicks on are 620 x 200
+the big gallery are 800 x 560

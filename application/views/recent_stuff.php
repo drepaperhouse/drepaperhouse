@@ -42,47 +42,28 @@ google.setOnLoadCallback(load);
 </script>
 
 
+                        <h2>Latest Stuff</h2>
+                        <div class="news_list">
+                            <img src="<?php echo base_url() . 'assets/images/recent/01.jpg' ?>" alt="1"  class="img_fl img_border img_border_s" />
+                            <a href="<?php echo base_url().'index.php/gallery_controller' ?>">My latest gallery</a>
+                            <p> San Antonio </p>
+                            <div class="clear"></div>
+                        </div>           
+                       
+                        <div class="news_list">
+                            <img src="<?php echo base_url() . 'assets/images/recent/02.jpg' ?>" alt="Flower 3" class="img_fl img_border img_border_s" />
+                            <a href="#">Upcoming projects</a>
+                            <p>Comming Soon!</p>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="news_list" id="feedControl">
+                            <img src="images/templatemo_image_04.jpg" alt="Flower 4" class="img_fl img_border img_border_s" />
+ 
+                            <div class="clear"></div>
+                        </div>   
+
+                        <div class="clear"></div>
+                      
 
 
 
-<div class="headline" align="left"><h3>Latest Stuff</h3></div>
-<div row>  
-
-    <!--Me Section-->
-    <div class="col-xs-6 col-sm-3">
-        <div class="thumbnail">
-            <img class="img-responsive"  src="<?php echo base_url() . 'assets/images/me_home.jpg' ?>" alt width="250" height="182" />
-            <div class="caption" align="left">
-                <h4><a href="#">Latest and Greatest</a></h4>
-                <p>What's happening now.....</p>
-            </div>
-        </div>           
-    </div>
-
-    <!--Latest Gallery Section-->
-    <div class="col-xs-6 col-sm-3">
-        <div class="thumbnail">
-            <img class="img-responsive"  src="<?php echo base_url() . 'assets/images/seals.jpg' ?>" alt width="250" height="182" />
-            <div class="caption" align="left">
-                <h4><a href="#">Latest Gallery</a></h4>
-                <p>This is my first gallery. Pictures from San Francisco. I had a Sony(Point and Shoot) camera. </p>
-            </div>
-        </div> 
-    </div>
-    
-     <div class="col-xs-6 col-sm-3">
-         
-         <div id="body">
-             <div id="feedControl">Loading...</div>  
-             
-         </div>  
-         
-         
-         
-     </div>
-
-    <!--Contact Information-->
-    <div class="col-xs-6 col-sm-3" align="left">
-
-    </div>
-</div>
